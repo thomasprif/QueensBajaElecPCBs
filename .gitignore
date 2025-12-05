@@ -1,11 +1,14 @@
 # KiCad backup & autosave
+*-backups/
 *.bak
 *.tmp
 *.tmp.*
 *.kicad_sch-bak
 *.kicad_pcb-bak
-
 *.kicad_prl
+\#auto_saved_files\#
+*.lck
+_autosave-*
 
 *.step
 *.stl
@@ -18,3 +21,4 @@
 *.pdf
 
 *.3dshapes/*
+
