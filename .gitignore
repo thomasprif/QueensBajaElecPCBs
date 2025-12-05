@@ -10,15 +10,12 @@
 *.lck
 _autosave-*
 
-*.step
-*.stl
 *.wrp
 *.gbr
 *.zip
 *.xml
 *.dxf
 *.svg
-*.pdf
 
 *.3dshapes/*
 
