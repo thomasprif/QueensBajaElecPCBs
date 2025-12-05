@@ -1,0 +1,7 @@
+*.kicad_pcb binary
+*.kicad_sch binary
+*.kicad_pro binary
+*.kicad_sym binary
+*.kicad_mod binary
+
+* text=auto
