@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b2166375-c496-483c-b30b-4701c4bffa63")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 78.74 39.37) (xy 97.79 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f37eb94-6a1d-40f1-8bad-f75dd1e3371d")
+	)
+	(sheet
+		(at 97.79 34.29)
+		(size 39.37 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34887bcd-d459-466a-a4ad-d4a276704133")
+		(property "Sheetname" "Power"
+			(at 97.79 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../../schematics/Power/3.3V_v1.0/3.3V_v1.0.kicad_sch"
+			(at 97.79 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VO_3V3" output
+			(at 97.79 39.37 180)
+			(uuid "51d047d5-ce8c-4a28-8933-ef943500cb3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 137.16 39.37 0)
+			(uuid "ea14241a-e614-4178-8dda-b6822c369597")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "UprightAccelerometers_v1.0"
+				(path "/b2166375-c496-483c-b30b-4701c4bffa63"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 34.29)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0edd21f-12ad-414a-89ef-d9cd61625708")
+		(property "Sheetname" "MCU"
+			(at 40.64 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../../schematics/Microcontrollers/STM32/stm32f042f6p6_core_v1.0/stm32f042f6p6_core_v1.0.kicad_sch"
+			(at 40.64 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Vin" input
+			(at 78.74 39.37 0)
+			(uuid "a88fada5-02cc-43a0-8e7c-16e0197ee3f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "UprightAccelerometers_v1.0"
+				(path "/b2166375-c496-483c-b30b-4701c4bffa63"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
