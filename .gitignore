@@ -9,6 +9,7 @@
 \#auto_saved_files\#
 *.lck
 _autosave-*
+fp-info-cache
 
 *.wrp
 *.gbr
