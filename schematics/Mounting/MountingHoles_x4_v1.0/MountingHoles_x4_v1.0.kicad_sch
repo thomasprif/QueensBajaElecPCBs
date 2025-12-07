@@ -151,6 +151,12 @@
 					(unit 1)
 				)
 			)
+			(project "MountingHoles_x4_v1.0"
+				(path "/e3f40ff1-decc-4d4d-92c8-3a1a511acae9/7a015a12-1425-4757-a446-1756532fe1fd"
+					(reference "H4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -211,6 +217,12 @@
 		(instances
 			(project "MountingHoles_x4_v1.0"
 				(path "/02e68697-bf31-4d23-9201-451776a1da3f"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+			(project "MountingHoles_x4_v1.0"
+				(path "/e3f40ff1-decc-4d4d-92c8-3a1a511acae9/7a015a12-1425-4757-a446-1756532fe1fd"
 					(reference "H2")
 					(unit 1)
 				)
@@ -279,6 +291,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/e3f40ff1-decc-4d4d-92c8-3a1a511acae9/7a015a12-1425-4757-a446-1756532fe1fd"
+					(reference "H1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -343,12 +361,12 @@
 					(unit 1)
 				)
 			)
+			(project "MountingHoles_x4_v1.0"
+				(path "/e3f40ff1-decc-4d4d-92c8-3a1a511acae9/7a015a12-1425-4757-a446-1756532fe1fd"
+					(reference "H3")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
